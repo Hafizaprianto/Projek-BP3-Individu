@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#fef7ff"
+    tools:context=".Pembayaran">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Metode Pembayaran"
+        android:fontFamily="@font/pbold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginVertical="40dp" />
+
+    <!-- Baris 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <!-- Item 1 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="192dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_background"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/dana" />
+        </LinearLayout>
+
+        <!-- Item 2 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="192dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/rounded_background"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ovo" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Baris 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Item 3 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="192dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_background"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/gopay" />
+        </LinearLayout>
+
+        <!-- Item 4 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="192dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/rounded_background"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/bank" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnbayar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:fontFamily="@font/pbold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#355F2E"
+        android:textSize="20sp"
+        android:textColor="#FAF2DE"
+        android:text="Bayar"
+         />
+
+</LinearLayout>

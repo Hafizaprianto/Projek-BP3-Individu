@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Beranda">
+
+    <!-- Text Beranda -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pbold"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="Beranda" />
+
+    <!-- Kontainer untuk Teks dan Gambar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:padding="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#F7ECD0"
+        android:gravity="center_vertical">
+
+        <!-- Kolom Kiri -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <!-- Teks Tervaforit -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pbold"
+                android:text="Tervaforit"
+                android:textColor="#355F2E"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Teks Nasi Goreng -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pregular"
+                android:text="Cappucino"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Tombol Pesan Sekarang -->
+            <Button
+                android:id="@+id/buttonfavorit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pbold"
+                android:backgroundTint="#355F2E"
+                android:textSize="18sp"
+                android:text="Pesan" />
+        </LinearLayout>
+
+        <!-- Gambar di Kanan -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/cappucino"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/rounded"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pbold"
+        android:text="Menu Rekomendasi"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#355F2E"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="270dp" />
+
+    <Button
+        android:id="@+id/button_menu_lainnya"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:fontFamily="@font/pbold"
+        android:layout_margin="20dp"
+        android:text="Menu Lainnya"
+        android:backgroundTint="#FAF2DE"
+        android:textColor="#355F2E"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/rounded_background"
+        android:orientation="horizontal"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/imageHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="20dp"
+            android:src="@drawable/homeon" />
+
+        <ImageView
+            android:id="@+id/imageMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="20dp"
+            android:src="@drawable/menuoff" />
+
+        <ImageView
+            android:id="@+id/imageUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="20dp"
+            android:src="@drawable/useroff" />
+    </LinearLayout>
+
+
+</LinearLayout>

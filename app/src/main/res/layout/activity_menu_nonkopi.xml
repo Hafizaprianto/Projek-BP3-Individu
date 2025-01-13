@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuNonkopi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="26dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pbold"
+            android:text="Menu"
+            android:paddingLeft="120dp"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnkopi"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pbold"
+                android:backgroundTint="#626262"
+                android:textColor="#fff"
+                android:text="Coffe"
+                 />
+
+            <Button
+                android:id="@+id/btnmakanan"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pbold"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="#626262"
+                android:textColor="#fff"
+                android:text="Makanan" />
+
+            <Button
+                android:id="@+id/btnnon"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pbold"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="#355F2E"
+                android:textColor="#FAF2DE"
+                android:text="Non-Coffe" />
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="504dp"
+        android:background="#EDEDED" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/rounded_background"
+        android:orientation="horizontal"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/imageHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="20dp"
+            android:src="@drawable/homeoff" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="20dp"
+            android:src="@drawable/menuon" />
+
+        <ImageView
+            android:id="@+id/imageUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="20dp"
+            android:src="@drawable/useroff" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Layer bayangan -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" /> <!-- Radius sudut -->
+            <solid android:color="#6D6D6D" /> <!-- Warna bayangan -->
+        </shape>
+    </item>
+
+    <!-- Layer konten utama -->
+    <item android:right="4dp" android:bottom="4dp"> <!-- Offset untuk bayangan -->
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" /> <!-- Radius sudut -->
+            <solid android:color="@color/white" /> <!-- Warna latar utama -->
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Project BP3 Individu</string>
+
+    <string name="deskripsi_beef_teriyaki">Irisan daging sapi yang lembut dimasak dengan saus teriyaki khas Jepang yang manis dan gurih. Hidangan ini dilengkapi dengan bawang bombay dan paprika untuk memberikan rasa yang segar. Cocok disajikan dengan nasi putih hangat.</string>
+    <string name="deskripsi_spaghetti">Pasta Italia yang dimasak al dente dan disiram dengan saus bolognese yang kaya rasa. Sausnya dibuat dari tomat segar, daging cincang, dan rempah-rempah khas. Taburan keju parmesan menambah cita rasa yang sempurna.</string>
+    <string name="deskripsi_chicken_steak">Potongan daging ayam fillet yang dipanggang hingga juicy, disajikan dengan saus lada hitam yang pedas dan gurih. Dilengkapi dengan kentang goreng dan sayuran seperti wortel dan buncis untuk keseimbangan rasa. Sajian yang pas untuk santapan makan siang atau malam.</string>
+    <string name="deskripsi_chicken_katsu">Ayam fillet berlapis tepung roti yang renyah di luar namun tetap juicy di dalam. Disajikan dengan saus tonkatsu yang manis dan asam khas Jepang. Tambahan salad segar dan nasi hangat menjadikannya hidangan yang lengkap.</string>
+    <string name="deskripsi_nasi_goreng">Nasi yang digoreng dengan bumbu tradisional, memberikan rasa gurih dan harum yang menggoda. Dihidangkan dengan telur mata sapi, potongan ayam atau udang, serta kerupuk renyah. Topping acar dan irisan cabai menambah kenikmatan rasa lokalnya.</string>
+    <string name="deskripsi_ayam_penyet">Ayam goreng yang digeprek hingga empuk, lalu disajikan dengan sambal pedas yang menggugah selera. Dilengkapi dengan lalapan seperti timun, kol, dan kemangi untuk memberikan kesegaran. Nikmati bersama nasi hangat untuk pengalaman makan khas Indonesia.</string>
+
+    <string name="deskripsi_espresso">Minuman kopi pekat yang dihasilkan dengan mengekstraksi biji kopi menggunakan air panas bertekanan tinggi. Espresso memiliki rasa kuat dan menjadi dasar dari banyak minuman kopi lainnya.</string>
+    <string name="deskripsi_americano">Kopi yang dibuat dengan mencampurkan espresso dengan air panas. Rasanya lebih ringan dibandingkan espresso namun tetap memiliki aroma yang khas.</string>
+    <string name="deskripsi_cappuccino">Kombinasi dari espresso, susu panas, dan busa susu dengan perbandingan seimbang. Minuman ini sering dihiasi dengan taburan bubuk cokelat atau kayu manis.</string>
+    <string name="deskripsi_latte">Minuman berbahan dasar espresso dengan lebih banyak susu panas dibandingkan cappuccino. Latte memiliki tekstur lembut dan rasa yang creamy.</string>
+    <string name="deskripsi_mocha">Campuran dari espresso, susu panas, dan cokelat. Cocok untuk pecinta kopi yang juga menyukai rasa manis dari cokelat.</string>
+    <string name="deskripsi_macchiato">Espresso dengan sedikit tambahan busa susu di atasnya. Rasanya cenderung lebih kuat karena susu hanya digunakan dalam jumlah kecil.</string>
+
+    <string name="deskripsi_green_tea_latte">Minuman berbahan dasar bubuk matcha yang dicampur dengan susu panas, menghasilkan rasa yang lembut dan sedikit manis dengan aroma khas teh hijau.</string>
+    <string name="deskripsi_red_velvet_latte">Minuman latte berwarna merah cerah dengan rasa manis yang khas, biasanya terbuat dari campuran susu panas dan bubuk red velvet.</string>
+    <string name="deskripsi_chocolate_hazelnut">Kombinasi lezat antara cokelat panas dan hazelnut, menciptakan minuman yang kaya rasa dengan sentuhan kacang yang menggoda.</string>
+    <string name="deskripsi_strawberry_milkshake">Milkshake manis dan segar yang terbuat dari campuran stroberi segar, susu, dan es krim, sempurna untuk dinikmati di hari panas.</string>
+
+    <string name="deskripsi_french_fries">Kentang goreng yang renyah di luar dan lembut di dalam, disajikan dengan garam atau berbagai pilihan saus.</string>
+    <string name="deskripsi_chicken_wings">Sayap ayam goreng yang renyah dengan pilihan saus pedas, manis, atau asam sesuai selera Anda.</string>
+    <string name="deskripsi_onion_rings">Irisan bawang bombai yang dilapisi tepung roti lalu digoreng hingga garing, cocok sebagai camilan atau pendamping makanan.</string>
+    <string name="deskripsi_nachos">Keripik tortilla renyah yang disajikan dengan berbagai topping seperti keju leleh, daging cincang, saus salsa, atau guacamole.</string>
+
+    <string name="aboutus">Selamat datang di Filosofi Kopi, tempat di mana setiap cangkir memiliki cerita. Kami berkomitmen untuk menyajikan pengalaman ngopi yang sempurna, memadukan cita rasa yang kaya dengan suasana hangat dan ramah. Bagi kami, kopi bukan sekadar minuman—melainkan cara untuk terhubung, merenung, dan menemukan inspirasi.\nHubungi kami dengan klik tombol di bawah</string>
+
+</resources>
