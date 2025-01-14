@@ -7,17 +7,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
+    android:background="#fef7ff"
     tools:context=".Beranda">
 
     <!-- Text Beranda -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#50444c"
         android:fontFamily="@font/pbold"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:textSize="22sp"
-        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:text="Beranda" />
 
@@ -47,7 +49,7 @@
                 android:fontFamily="@font/pbold"
                 android:text="Tervaforit"
                 android:textColor="#355F2E"
-                android:textSize="22sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginBottom="4dp" />
 
@@ -55,9 +57,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#50444c"
                 android:fontFamily="@font/pregular"
                 android:text="Cappucino"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:layout_marginBottom="8dp" />
 
             <!-- Tombol Pesan Sekarang -->
@@ -67,14 +70,15 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/pbold"
                 android:backgroundTint="#355F2E"
-                android:textSize="18sp"
+                android:textColor="#fff"
+                android:textSize="16sp"
                 android:text="Pesan" />
         </LinearLayout>
 
         <!-- Gambar di Kanan -->
         <ImageView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
             android:src="@drawable/cappucino"
             android:layout_marginStart="16dp"
             android:background="@drawable/rounded"
@@ -89,7 +93,7 @@
         android:text="Menu Rekomendasi"
         android:layout_marginVertical="20dp"
         android:layout_marginHorizontal="20dp"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="#355F2E"
         />
@@ -97,7 +101,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="270dp" />
+        android:layout_height="255dp" />
 
     <Button
         android:id="@+id/button_menu_lainnya"
@@ -108,7 +112,7 @@
         android:text="Menu Lainnya"
         android:backgroundTint="#FAF2DE"
         android:textColor="#355F2E"
-        android:textSize="24sp" />
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"

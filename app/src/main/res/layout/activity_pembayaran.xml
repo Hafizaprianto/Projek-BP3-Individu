@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Pilih Metode Pembayaran"
         android:fontFamily="@font/pbold"
+        android:textColor="#50444c"
         android:textSize="20sp"
         android:gravity="center"
         android:textStyle="bold"
